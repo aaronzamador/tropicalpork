@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body{
     background-color:#E9F1E9;}
 
@@ -51,9 +54,10 @@ header img{
     margin-right:35px;}
 #hole{
     display:flex;
-    margin-left:80px;
+    padding-left:80px;
     width:100%;
     margin-top:80px;
+    padding-bottom:80px;
     color:#141414;
 }
 #entro h1{
@@ -249,7 +253,7 @@ padding-bottom:240px;
     
 
 #hole{
-    margin-left:40px;
+    padding-left:40px;
     width:90%;
     margin-top:60px;
 }
@@ -336,7 +340,7 @@ p{
     
 
 #hole{
-    margin-left:40px;
+    padding-left:40px;
     width:90%;
 }
 

@@ -1,4 +1,4 @@
-var fade;
+fade=function(){};
 
 
 

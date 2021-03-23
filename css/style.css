@@ -146,6 +146,7 @@ footer{
 }
 .footnav b{
     font-weight:400;
+    text-decoration:none;
 }
 .footnav a{
     padding-left:18px;

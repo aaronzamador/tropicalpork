@@ -75,6 +75,7 @@ header img{
 #intro2{
     display:flex;
     padding-bottom:10px;
+    word-spacing:-15px;
 }
 #intro2 h2{
     font-family: 'Space Mono', monospace;
@@ -89,10 +90,10 @@ header img{
 #info{
     font-family:'IBM Plex Mono', monospace;
     font-size:55px;
-    line-height:60px;
-    word-spacing:-10px;
+    line-height:75px;
+    word-spacing:-15px;
     font-weight:300;
-    width: 55%;
+    width: 50%;
     margin-top:-65px;
 }
 #info img{
@@ -115,12 +116,14 @@ header img{
 }
 h4{
     font-family:'IBM Plex Mono', monospace;
-    font-weight:500;
+    font-weight:600;
     font-size:16px;
+    word-spacing:-3px;
 }
 p{
     font-family:public sans;
     font-size:14px;
+    font-weight:200;
     line-height:20px;
 }
 .bodyodyody{
@@ -132,13 +135,44 @@ footer{
     font-style:italic;
     color:#141414;
     font-weight:300;
-    text-decoration:underline;
-    margin-top:60px;
-    margin-left:80px;
+    margin-top:160px;
+    word-spacing:-15px;
+    margin-left:60px;
 }
 .footnav{
     font-size:68px;
-    padding-top:120px;
+    padding-left:20px;
+    padding-top:20px;
+}
+.footnav b{
+    font-weight:400;
+}
+.footnav a{
+    padding-left:18px;
+}
+
+.footnav img{
+    height:40px;
+    width:40px;
+}
+
+.footnav:hover img{
+    animation-name: bounce;
+    animation-duration: 750ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes bounce {
+    0% {
+        transform:translateX(0);
+    }
+    50% {
+        transform:translateX(10px);
+    }
+    100% {
+        transform:translateX(0px);
+    }
 }
 .smaller{
 padding-bottom:240px;
@@ -170,13 +204,14 @@ padding-bottom:240px;
 .smallhead{
     font-family:'IBM Plex Mono', monospace;
     font-weight:600;
+    word-spacing:-3px;
     font-size:16px;
 }
 .smallinfo{
     font-size:14px;
     margin-top:5px;
     line-height:20px;
-    font-weight:300;
+    font-weight:200;
 }
 .smallview img{
     max-height:400px;

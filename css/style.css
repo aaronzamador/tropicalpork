@@ -24,20 +24,17 @@ header{
 a{
     color:#141414;
     text-decoration:none;
-
 }
 header img{
     max-height:40px;
     margin-top:2px;
-    padding-right:20px;
-}
+    padding-right:20px;}
 #topleft{
     display:flex;
     width:75%;
     margin-top:10px;
     padding-bottom:5px;
-    padding-left:30px;
-}
+    padding-left:30px;}
 #navigation{
     margin:25px;
     display:flex;
@@ -47,9 +44,6 @@ header img{
     font-size:14px;
     justify-content:space-between;
 }
-.navy{
-}
-
 #picofme img{
     max-height:150px;
     margin-right:35px;}

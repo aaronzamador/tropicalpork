@@ -338,7 +338,6 @@ padding-bottom:240px;
     .footnav{
         font-size:55px;
     }
-    .smaller{font-size:45px;}
     
 
 #hole{
@@ -347,11 +346,9 @@ padding-bottom:240px;
     margin-top:60px;
 }
 
-#intro2 h2{
-    font-size:35px;
-}
 #intro2 h3{
-    font-size:35px;}
+    font-size:35px;
+    word-spacing:-5px;}
 
 #info{
     font-size:35px;
@@ -421,9 +418,11 @@ p{
     .footnav{
         font-size:45px;
     }
-    .smaller{
-        font-size:35px;
+    .footnav img{
+        height:30px;
+        width:30px;
     }
+
     
 }
 @media only screen and (max-width:450px){
@@ -434,9 +433,10 @@ p{
     .footnav{
         font-size:35px;
     }
-    .smaller{
-        font-size:25px;
-}
+    .footnav img{
+        height:25px;
+        width:25px;
+    }
     
 
 #hole{
@@ -507,17 +507,13 @@ p{
 @media only screen and (max-width:350px){
     
     footer{
-        margin-left:40px;
+        margin-left:20px;
+        word-spacing:-5px;
     }
     .footnav{
         font-size:35px;
         padding-top:60px;
     }
-    .smaller{
-        font-size:25px;
-        padding-top:40px;
-    padding-bottom:60px;
-}
     .navy{
         padding-right:10px;
     }
@@ -589,17 +585,4 @@ p{
 }
 .row2{
     margin-left:40px;
-}
-
-footer{
-    margin-left:40px;
-}
-.footnav{
-    font-size:25px;
-    padding-top:80px;
-}
-.smaller{
-    font-size:25px;
-    padding-top:80px;
-padding-bottom:120px;
 }}

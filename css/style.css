@@ -342,12 +342,14 @@ padding-bottom:240px;
 
 #intro2 h3{
     font-size:35px;
+
     word-spacing:-5px;}
 
 #info{
     font-size:35px;
     line-height:45px;
     width:70%;
+    word-spacing:-5px;
     margin-top:-40px;
 }
 #info img{

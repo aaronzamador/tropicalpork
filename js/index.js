@@ -1,7 +1,3 @@
-fade=function(){};
-
-
-
 function fade() {
     $('.preload').fadeOut(500);
     }

@@ -163,18 +163,6 @@ footer{
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
-
-@keyframes bounce {
-    0% {
-        transform:translateX(0);
-    }
-    50% {
-        transform:translateX(10px);
-    }
-    100% {
-        transform:translateX(0px);
-    }
-}
 .smaller{
 padding-bottom:240px;
 }
@@ -258,6 +246,18 @@ padding-bottom:240px;
     }
 }
 
+
+@keyframes bounce {
+    0% {
+        transform:translateX(0);
+    }
+    50% {
+        transform:translateX(10px);
+    }
+    100% {
+        transform:translateX(0px);
+    }
+}
 @media only screen and (max-width:1450px){
     
     .smallview img{

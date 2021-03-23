@@ -133,6 +133,7 @@ p{
 footer{
     font-family:'IBM Plex Mono', monospace;
     font-style:italic;
+    text-decoration:none;
     color:#141414;
     font-weight:300;
     margin-top:160px;
@@ -146,7 +147,6 @@ footer{
 }
 .footnav b{
     font-weight:400;
-    text-decoration:none;
 }
 .footnav a{
     padding-left:18px;
@@ -162,6 +162,18 @@ footer{
     animation-duration: 750ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
+}
+
+@keyframes bounce {
+    0% {
+        transform:translateX(0);
+    }
+    50% {
+        transform:translateX(10px);
+    }
+    100% {
+        transform:translateX(0px);
+    }
 }
 .smaller{
 padding-bottom:240px;
@@ -246,18 +258,6 @@ padding-bottom:240px;
     }
 }
 
-
-@keyframes bounce {
-    0% {
-        transform:translateX(0);
-    }
-    50% {
-        transform:translateX(10px);
-    }
-    100% {
-        transform:translateX(0px);
-    }
-}
 @media only screen and (max-width:1450px){
     
     .smallview img{
